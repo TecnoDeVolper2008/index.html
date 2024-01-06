@@ -1,12 +1,12 @@
 {
   "rows": [
     {
-      "Version_code": 5,
+      "Version_code": 1,
       "Update_Title": "New Update",
       "Update_Message": "latest test",
       "Update_Button_text": "update",
       "Link": "https://play.google.com/store/apps/details?id=com.cy.cybertv",
-      "Update_Dialog_Close": "false" // true or false
+      "Update_Dialog_Close": "false"         // true or false
       
     }
   ]
