@@ -75,10 +75,10 @@
             var progressBar = document.getElementById('progressBar');
             var player = new shaka.Player(videoElement);
             var url = new URL(window.location.href);
-            var liveStreamUrl = url.searchParams.get("videoUrl");
+            var liveStreamUrl = url.searchParams.get("https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd");
 
             var clearKeys = {
-                "01b1bafc996378ec0a7cb804aedca646": "e1669c99c646fbbe4d4ade8dfe3a3963",
+                "": "",
                 // Add other keys here
             };
 
